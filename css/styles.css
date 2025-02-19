@@ -1,0 +1,84 @@
+:root {
+    --background-color: #0c3e11; 
+}
+
+@font-face {
+    font-family: BreakingBad;
+    src: url(/fonts/Breaking\ Bad.ttf);
+    font-weight:500;
+}
+
+/* Normalizador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-background {
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#index-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 5rem;
+}
+
+#logo {
+    margin: auto;
+    background-image: url(/img/logo.PNG);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+
+#motto-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+#motto {
+    margin: auto;
+    color: white;
+    font-family: BreakingBad;
+    display: block;
+    font-size: 2.5rem;
+}
+
+#poster {
+    margin: auto;
+    background-image: url(/img/poster.jpg);
+    background-size:cover;
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    padding: 1rem 0;
+    position: relative;
+}
+
+#link-formulario {
+    bottom: 75px;
+    right: 154px;
+    height: 58px;
+    width: 58px;
+    position: absolute;
+    display: block;
+}
+
+#link-tabla {
+    bottom: 18px;
+    right: 97px;
+    height: 58px;
+    width: 58px;
+    position: absolute;
+    display: block;
+}
