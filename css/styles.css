@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: BreakingBad;
-    src: url(/fonts/Breaking\ Bad.ttf);
+    src: url(https://cciglesiasmartinez.github.io/LLMM-Actividad2/fonts/Breaking\ Bad.ttf);
     font-weight:500;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .body-background {
-    background-image: url(/img/fondo.jpg);
+    background-image: url(https://cciglesiasmartinez.github.io/LLMM-Actividad2/img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,7 +32,7 @@
 
 #logo {
     margin: auto;
-    background-image: url(/img/logo.PNG);
+    background-image: url(https://cciglesiasmartinez.github.io/LLMM-Actividad2/img/logo.PNG);
     background-size: contain;
     width: 150px;
     height: 150px;
@@ -55,7 +55,7 @@
 
 #poster {
     margin: auto;
-    background-image: url(/img/poster.jpg);
+    background-image: url(https://cciglesiasmartinez.github.io/LLMM-Actividad2/img/poster.jpg);
     background-size:cover;
     width: 700px;
     height: 300px;
