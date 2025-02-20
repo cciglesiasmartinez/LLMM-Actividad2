@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+</head>
+<body class="body-background body-form">
+    <div id="index-container">
+        <div id="form-container">
+            <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post">
+                <fieldset class="form-fieldset">
+                    <legend>Breaking Bad - Que comience el juego!</legend>
+                    <div class="label-and-input">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="label-and-input">
+                        <label for="surname">Apellidos</label>
+                        <input type="text" id="surname" name="surname" placeholder="Tus apellidos" required>
+                    </div>
+                    <div class="label-and-input">
+                        <label for="name">Sexo</label>
+                        <div class="radio-input">
+                            <label><input type="radio" name="sexo" value="hombre"> Hombre</label>
+                            <label><input type="radio" name="sexo" value="mujer"> Mujer</label>
+                        </div>
+                    </div>
+                    <div class="label-and-input">
+                        <label for="fecha">Fecha de nacimiento</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+                    <div class="label-and-input">
+                        <label for="">DNI</label>
+                        <input type="text" id="dni" name="dni" placeholder="DNI">
+                    </div>
+                    <div class="label-and-input">
+                        <label for="address">Direción postal</label>
+                        <input type="text" id="address" name="address" placeholder="Calle, número, piso...">
+                    </div>
+                    <div class="label-and-input">
+                        <label for="name">Correo electrónico</label>
+                        <input type="text" id="email" name="email" placeholder="Tus dirección de correo" required>
+                    </div>
+                    <div class="label-and-input">
+                        <label for="personaje"> Personaje</label>
+                        <select id="personaje" name="personaje" required>
+                            <option value="jessie">Jessie Pinkman</option>
+                            <option value="walt">Walter White</option>
+                            <option value="saul">Saul Goodman</option>
+                            <option value="gus">Gustavo Fring</option>
+                            <option value="pollos">Pollos Hermanos</option>
+                            <option value="otros">Otros personajes</option>
+                        </select>
+                    </div>
+                    <div class="label-and-input">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea rows="4" cols="40" id="comentarios" name="comentarios" placeholder="Escribe algo..."></textarea>
+                    </div>
+                    <div class="label-and-input">
+                        <label for="archivo">Adjuntar archivos...</label>
+                        <input type="archivo" id="archivo" name="archivo">
+                    </div>
+                </fieldset>
+                <div class="button-container">
+                    <button type="submit" class="button">Enviar</button>
+                    <button type="reset" class="button">Borrar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

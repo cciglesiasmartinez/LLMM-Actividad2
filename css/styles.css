@@ -1,5 +1,17 @@
 :root {
     --background-color: #0c3e11; 
+    --green-1: #b7da2a;
+    --green-2: #d4eb77;
+    --green-3: #eff7c9;
+    --green-4: #88a517;
+    --green-5: #617126;
+    --green-6: #c7e254;
+    --green-7: #bac5a2;
+    --green-8: #7b8950;
+    --green-9: #c1c533;
+    --purple: #ab8fcc;
+    --dark-gray: #2b2c22;
+    --background-ha: url(https://cciglesiasmartinez.github.io/LLMM-Actividad2/img/tabla_periodica/hankschrader.png);
 }
 
 @font-face {
@@ -21,6 +33,18 @@
     background-size: cover;
     background-position: center;
 }
+
+.body-form {
+    color: white;
+    font-family: Helvetica;
+}
+
+.body-table {
+    background-color: var(--background-color);
+    font-family: Helvetica;
+}
+
+/* Indice */
 
 #index-container {
     display: flex;
@@ -81,4 +105,248 @@
     width: 58px;
     position: absolute;
     display: block;
+}
+
+/* Formulario */
+
+#form-container {
+    background-color: rgb(0,0,0,0.5);
+    padding: 2rem;
+    width: 800px;
+    margin: auto;
+    border-radius: 22px;
+    border: 10px outset brown;
+}
+
+.form-text {
+    font-family: Helvetica;
+    color: white;
+}
+
+label {
+    color: white;
+    text-align:left;
+
+}
+
+input {
+    padding: 0 3rem;
+}
+
+.form-entry {
+    display: flex;
+    flex-flow: row;
+    padding: 0.5rem;
+}
+
+.form-entry > * {
+    width: 50%;
+}
+
+legend {
+    padding: 0 2rem;
+}
+
+/* Tabla */
+
+#table-container {
+    display: flex;
+    flex-flow: column;
+}
+
+#header-table {
+    margin-top: 1rem;
+    background-image: url(https://cciglesiasmartinez.github.io/LLMM-Actividad2/img/cabecera.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 450px;
+    height: 220px;
+    margin: 1rem auto 1rem auto;
+}
+
+#upper-table {
+    margin: 1rem auto;
+    background-color: #2b2c22;
+    width: auto;
+    display: flex;
+    flex-flow: row;
+    padding: 3px;
+}
+
+.column {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.square {
+    background-color: purple;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+    border: 3px solid var(--dark-gray);
+}
+
+.rectangle {
+    background-color: blue;
+    width: 60px;
+    height: 120px;
+    display: flex;
+    flex-flow: column;
+    border: 3px solid var(--dark-gray);
+}
+
+.element {
+    display: block;
+    color: #2b2c22;
+    font-size: 25px;
+    font-weight: 900;
+    margin: auto;
+}
+
+.element-description {
+    display: block;
+    color: #2b2c22;
+    font-size: 10px;
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
+    line-height: 0.8;
+}
+
+.table-image {
+    display:block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.green-1 {
+    background-color: var(--green-1);
+}
+
+.green-2 {
+    background-color: var(--green-2);
+}
+
+.green-3 {
+    background-color: var(--green-3);
+}
+
+.green-4 {
+    background-color: var(--green-4);
+}
+
+.green-5 {
+    background-color: var(--green-5);
+}
+
+.green-6 {
+    background-color: var(--green-6);
+}
+
+.green-7 {
+    background-color: var(--green-7);
+}
+
+.green-8 {
+    background-color: var(--green-8);
+}
+
+.green-9 {
+    background-color: var(--green-9);
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+.background-ha {
+    background-image: var(--background-ha);
+    background-size: cover;
+    background-position: center;
+}
+
+.inner-container {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    height: 90%;
+    margin: 3px;
+    background-color: red;
+}
+
+#lower-table {
+    margin: 3rem auto;
+    background-color: #2b2c22;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    padding: 3px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+}
+
+.form-fieldset {
+    padding: 1rem;
+    border-radius: 11px;
+}
+
+.form-fieldset > legend {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.label-and-input {
+    display: flex;
+    flex-flow: row;
+}
+
+.label-and-input > * {
+    width: 50%;
+    margin: 0.5rem;
+}
+
+.label-and-input > label {
+    padding: 0 3rem;
+    font-weight: 500;
+    margin: auto;
+}
+
+.label-and-input > input {
+    padding: 0.5rem;
+}
+
+.label-and-input > select {
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.radio-input {
+    display: flex;
+    flex-flow: row;
+}
+
+.radio-input > * {
+    width: 50%;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.button {
+    padding: 0.25rem 1rem;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 11px;
+    font-weight: 600;
 }
